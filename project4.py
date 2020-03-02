@@ -78,8 +78,9 @@ if __name__ == "__main__":
 
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")   
+  
 
-
+        #Create a playlist in your music and look up the path on your C-drive
         elif 'play music' in query:
             music_dir = "C:\\Users\\Ibrahim\\Music\\Playlists\\fresh.wpl"
             os.startfile(music_dir)
